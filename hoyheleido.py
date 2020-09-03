@@ -11,3 +11,5 @@ mentions = api.mentions_timeline()
 
 for mention in mentions:
     print(str(mention.id) + " - " mention.text)
+
+if "#trigger" in mention.text:
